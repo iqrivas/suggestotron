@@ -11,7 +11,7 @@
   </thead>
 
   <tbody>
-    <% @topics.sort
+
     <% @topics.each do |topic| %>
       <tr>
         <td><%= link_to topic.title, topic %></td>
